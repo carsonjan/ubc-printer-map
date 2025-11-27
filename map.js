@@ -16,7 +16,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 const zoomHome = L.Control.zoomHome({
-  position: "topleft",
+  position: "bottomright",
   zoomHomeTitle: "Reset view",
   homeCoordinates: HOME_COORD,
   homeZoom: DEFAULT_ZOOM,

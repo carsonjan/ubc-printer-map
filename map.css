@@ -7,3 +7,12 @@ html, body {
     height: 100vh;
     width: 100vw;
 }
+
+li.printer-item span.printer-room{
+    font-weight: bold;
+}
+
+ul.printers-list {
+    padding-left: 0px;
+    list-style-type: none;
+}
