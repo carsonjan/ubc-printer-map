@@ -1,0 +1,385 @@
+{
+    "locations": [
+        {
+            "code": "ICICS",
+            "name": "ICICS (Computer Science)",
+            "lat": 49.26134763,
+            "long": -123.2488991,
+            "printers": [
+                {
+                    "room": "002",
+                    "code": "p4p-ead-z03\\CPSC-ICCS-002"
+                },
+                {
+                    "room": "X335",
+                    "code": "p4p-ead-z03\\CPSC-ICCS-X335"
+                }
+            ]
+        },
+        {
+            "code": "MCL",
+            "name": "MacLeod Building",
+            "lat": 49.26160328,
+            "long": -123.2494602,
+            "printers": [
+                {
+                    "room": "1003",
+                    "code": "p4p-ead-z03\\ECE-MCL1003"
+                }
+            ]
+        },
+        {
+            "code": "PHAR",
+            "lat": null,
+            "long": null,
+            "printers": [
+                {
+                    "room": "3300",
+                    "code": "p4p-ead-z03\\PHAR-PSB3300"
+                }
+            ]
+        },
+        {
+            "code": "ALSC",
+            "lat": null,
+            "long": null,
+            "printers": [
+                {
+                    "room": "102",
+                    "code": "p4p-ead-z03\\SUS-ALSC102"
+                }
+            ]
+        },
+        {
+            "code": "ACADIA",
+            "name": "Acadia park",
+            "lat": 49.26271484,
+            "long": -123.2374058,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Acadia"
+                }
+            ]
+        },
+        {
+            "code": "BROCK",
+            "name": "Brock Commons North",
+            "lat": 49.26942904067079,
+            "long": -123.25268582905544,
+            "printers": [
+                {
+                    "room": "Commons Block (next to ebox)",
+                    "code": "p4p-ead-z04\\HOUS-Brock"
+                }
+            ]
+        },
+        {
+            "code": "GAGE",
+            "name": "Walter Gage",
+            "lat": 49.26952856,
+            "long": -123.2497443,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Gage"
+                }
+            ]
+        },
+        {
+            "code": "MARINE",
+            "name": "Marine Drive",
+            "lat": 49.26142667,
+            "long": -123.2566429,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Marine"
+                }
+            ]
+        },
+        {
+            "code": "ORCHARD",
+            "name": "Orchard Commons",
+            "lat": 49.26013299,
+            "long": -123.2509828,
+            "printers": [
+                {
+                    "room": "Commons Block (next to vending machine)",
+                    "code": "p4p-ead-z04\\HOUS-Orchard"
+                }
+            ]
+        },
+        {
+            "code": "PONDEROSA",
+            "name": "Panderosa Commons",
+            "lat": 49.26433859,
+            "long": -123.2560559,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Ponderosa"
+                }
+            ]
+        },
+        {
+            "code": "SALTWATER",
+            "name": "Saltwater",
+            "lat": 49.26913001,
+            "long": -123.248731,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Saltwater"
+                }
+            ]
+        },
+        {
+            "code": "THUNDERBRID",
+            "name": "Thunderbrid",
+            "lat": 49.25917552,
+            "long": -123.2501637,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Thunderbird"
+                }
+            ]
+        },
+        {
+            "code": "TOTEM",
+            "name": "Totem Park",
+            "lat": 49.25809483,
+            "long": -123.252803,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Totem"
+                }
+            ]
+        },
+        {
+            "code": "VANIER",
+            "name": "Place Vanier",
+            "lat": 49.26463837,
+            "long": -123.2586324,
+            "printers": [
+                {
+                    "room": "Commons Block",
+                    "code": "p4p-ead-z04\\HOUS-Vanier"
+                }
+            ]
+        },
+        {
+            "code": "MCML",
+            "name": "MacMillan Building (LFS)",
+            "lat": 49.26083392,
+            "long": -123.2509205,
+            "printers": [
+                {
+                    "room": "366",
+                    "code": "p4p-ead-z04\\LFS-MCM366"
+                }
+            ]
+        },
+        {
+            "code": "HA",
+            "name": "Henry Angus (Sauder)",
+            "lat": 49.26511146,
+            "long": -123.2539488,
+            "printers": [
+                {
+                    "room": "193",
+                    "code": "p4p-ead-z04\\SAUD-HA193"
+                },
+                {
+                    "room": "122A",
+                    "code": "p4p-ead-z04SAUD-HA122A"
+                }
+            ]
+        },
+        {
+            "code": "ASIAN",
+            "name": "Asian Library",
+            "lat": 49.26670692,
+            "long": -123.2587111,
+            "printers": [
+                {
+                    "room": "1/F",
+                    "code": "p4p-library\\LBRY-AS-RC1"
+                },
+                {
+                    "room": "2/F",
+                    "code": "p4p-library\\LBRY-AS-RC2"
+                }
+            ]
+        },
+        {
+            "code": "BMB",
+            "name": "Biomedical Branch Library",
+            "lat": 49.26100495,
+            "long": -123.126287,
+            "printers": [
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-BMB-RC1"
+                }
+            ]
+        },
+        {
+            "code": "EDU",
+            "name": "Education Learning Commons",
+            "lat": 49.26400291,
+            "long": -123.2529764,
+            "printers": [
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-EDU-RC1"
+                },
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-EDU-RC2"
+                }
+            ]
+        },
+        {
+            "code": "IKB",
+            "lat": 49.26753677,
+            "long": -123.2526486,
+            "printers": [
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-IKB-RC1"
+                },
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-IKB-RC2"
+                },
+                {
+                    "room": "2/F",
+                    "code": "p4p-library\\LBRY-IKB-RC3"
+                },
+                {
+                    "room": "2/F",
+                    "code": "p4p-library\\LBRY-IKB-RC5"
+                }
+            ]
+        },
+        {
+            "code": "KOE",
+            "name": "Koerner Library",
+            "lat": 49.26662928,
+            "long": -123.2551262,
+            "printers": [
+                {
+                    "room": "5/F",
+                    "code": "p4p-library\\LBRY-KOE-RC1"
+                },
+                {
+                    "room": "4/F",
+                    "code": "p4p-library\\LBRY-KOE-RC2"
+                },
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-KOE-RC3"
+                },
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-KOE-RC4"
+                },
+                {
+                    "room": "2/F",
+                    "code": "p4p-library\\LBRY-KOE-RC5"
+                },
+                {
+                    "room": "1/F",
+                    "code": "p4p-library\\LBRY-KOE-RC6"
+                }
+            ]
+        },
+        {
+            "code": "DLAM",
+            "name": "David Lam Learning Centre",
+            "lat": 49.2656371,
+            "long": -123.2544793,
+            "printers": [
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-LAM-RC1"
+                },
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-LAM-RC2"
+                },
+                {
+                    "room": "2/F",
+                    "code": "p4p-library\\LBRY-LAM-RC3"
+                }
+            ]
+        },
+        {
+            "code": "LAW",
+            "name": "Law Library",
+            "lat": 49.26985867,
+            "long": -123.2535404,
+            "printers": [
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-LAW-RC1"
+                },
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-LAW-RC2"
+                },
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-LAW-RC3"
+                },
+                {
+                    "room": "4/F",
+                    "code": "p4p-library\\LBRY-LAW-RC4"
+                },
+                {
+                    "room": "2/F Reserve",
+                    "code": "p4p-library\\LBRY-LAW-RC5"
+                }
+            ]
+        },
+        {
+            "code": "MAA",
+            "name": "IKB Library",
+            "lat": 49.267969331771035,
+            "long": -123.25309792078076,
+            "printers": [
+                {
+                    "room": "3/F",
+                    "code": "p4p-library\\LBRY-MAA-RC2"
+                },
+                {
+                    "room": "4/F",
+                    "code": "p4p-library\\LBRY-MAA-RC3"
+                }
+            ]
+        },
+        {
+            "code": "WOOD",
+            "name": "Woodward Library",
+            "lat": 49.26454522,
+            "long": -123.2478368,
+            "printers": [
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-WD-RC1"
+                },
+                {
+                    "room": "Main Floor",
+                    "code": "p4p-library\\LBRY-WD-RC2"
+                },
+                {
+                    "room": "Lower floor",
+                    "code": "p4p-library\\LBRY-WD-RC3"
+                }
+            ]
+        }
+    ]
+}

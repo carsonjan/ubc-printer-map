@@ -1,0 +1,25 @@
+{
+    "locations": [
+        {
+            "code": "FSC",
+            "name": "Forest Sciences Centre",
+            "limit": "Forestry students only",
+            "lat": 49.26086541,
+            "long": -123.2478068,
+            "printers": [
+                {
+                    "room": "1404",
+                    "code": "p4p-ead-z03\\FRST-FSC1404-[BW|Colour]"
+                },
+                {
+                    "room": "1406",
+                    "code": "p4p-ead-z03\\FRST-FSC1406-[BW|Colour]"
+                },
+                {
+                    "room": "2942",
+                    "code": "p4p-ead-z03\\FRST-FSC2942-[BW|Colour]"
+                }
+            ]
+        }
+    ]
+}

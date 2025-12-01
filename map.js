@@ -54,7 +54,7 @@ function createPopupContent(location) {
 }
 
 async function renderLocations() {
-    const promise = await fetch("./sample-data/main.json");
+    const promise = await fetch("./data/main.json");
     const data = await promise.json();
     const locations = data.locations;
 
@@ -63,7 +63,7 @@ async function renderLocations() {
 }
 
 async function renderExtraLocations() {
-    const promise = await fetch("./sample-data/extra.json");
+    const promise = await fetch("./data/extra.json");
     const data = await promise.json();
     const locations = data.locations;
 
