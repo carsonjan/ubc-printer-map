@@ -1,18 +1,56 @@
-html, body {
+html,
+body {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
-#map { 
+#map {
     height: 100vh;
     width: 100vw;
 }
 
-li.printer-item span.printer-room{
+li.printer-item span.printer-room {
     font-weight: bold;
 }
 
 ul.printers-list {
     padding-left: 0px;
     list-style-type: none;
+}
+
+#tools {
+    --height: 4rem;
+    position: fixed;
+    z-index: 500;
+    top: calc(100vh - var(--height));
+    left: 0px;
+    width: 50vw;
+    height: var(--height);
+
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+}
+
+#tools button {
+    border-radius: 50%;
+    aspect-ratio: 1;
+    font-weight: bolder;
+    font-size: x-large;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 80ms;
+}
+
+#tools button:hover {
+    transform: scale(1.05);
+}
+
+#tools button:active {
+    transform: scale(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #tools button {
+        transform: none;
+    }
 }
