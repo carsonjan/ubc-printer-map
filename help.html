@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Help - UBC Printer Map</title>
+        <link rel="stylesheet" href="help.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <h1 id="title">UBC Printer Map</h1>
+        <br />
+        <div><a href="map.html" id="return">&#8592; Return to the map</a></div>
+        <br />
+        <div>
+            <p class="d-inline-flex gap-1">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#howtoUsePrinter"
+                    aria-expanded="false"
+                    aria-controls="howtoUsePrinter"
+                >
+                    How to use the printer?
+                </button>
+            </p>
+            <div class="collapse" id="howtoUsePrinter">
+                <div class="card card-body">
+                    <ol>
+                        <li>
+                            Submit a job at
+                            <a
+                                href="https://payforprint.ubc.ca/app?service=page/UserWebPrint"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >payforprint.ubc.ca</a
+                            >
+                        </li>
+                        <li>
+                            Release printing job
+                            <ol type="a">
+                                <li>
+                                    <u
+                                        >If a card reader is available on
+                                        printer</u
+                                    >: swipe your UBC Card and select "release
+                                    all" on the console
+                                </li>
+                                <li>
+                                    <u>If a card reader is not available</u>: go
+                                    to
+                                    <a
+                                        href="https://payforprint.ubc.ca/app?service=page/UserReleaseJobs"
+                                        >the Jobs Pending Release</a
+                                    >
+                                    tab, click "print", and select a specific
+                                    printer
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="d-inline-flex gap-1">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#price"
+                    aria-expanded="false"
+                    aria-controls="price"
+                >
+                    How much does it cost to print?
+                </button>
+            </p>
+            <div class="collapse" id="price">
+                <div class="card card-body">
+                    Current Rates (CAD):
+                    <table class="tg">
+                        <thead>
+                            <tr>
+                                <th class="tg-u3kx">
+                                    <span style="font-weight: 550">Size</span>
+                                </th>
+                                <th class="tg-u3kx">
+                                    <span style="font-weight: 550"
+                                        >B/W Single</span
+                                    >
+                                </th>
+                                <th class="tg-u3kx">
+                                    <span style="font-weight: 550"
+                                        >B/W Duplex</span
+                                    >
+                                </th>
+                                <th class="tg-u3kx">
+                                    <span style="font-weight: 550"
+                                        >Color Single</span
+                                    >
+                                </th>
+                                <th class="tg-u3kx">
+                                    <span style="font-weight: 550"
+                                        >Color Duplex</span
+                                    >
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tg-u3kx">
+                                    <span style="font-weight: 475">11X17</span>
+                                </td>
+                                <td class="tg-mk1c">0.10</td>
+                                <td class="tg-mk1c">0.50</td>
+                                <td class="tg-mk1c">0.10</td>
+                                <td class="tg-mk1c">0.45</td>
+                            </tr>
+                            <tr>
+                                <td class="tg-u3kx">
+                                    <span style="font-weight: 475"
+                                        >DEFAULT</span
+                                    >
+                                </td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.40</td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.35</td>
+                            </tr>
+                            <tr>
+                                <td class="tg-u3kx">
+                                    <span style="font-weight: 475">LEGAL</span>
+                                </td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.40</td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.35</td>
+                            </tr>
+                            <tr>
+                                <td class="tg-u3kx">
+                                    <span style="font-weight: 475">LETTER</span>
+                                </td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.40</td>
+                                <td class="tg-mk1c">0.07</td>
+                                <td class="tg-mk1c">0.35</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <i>Rates for reference only</i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="d-inline-flex gap-1">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#reportIssue"
+                    aria-expanded="false"
+                    aria-controls="reportIssue"
+                >
+                    Report an issue / Fix Documentation / Suggest a new feature
+                </button>
+            </p>
+            <div class="collapse" id="reportIssue">
+                <div class="card card-body">
+                    <span>
+                        Submit an issue in this project's
+                        <a
+                            href="https://github.com/carsonjan/ubc-printer-map/issues/"
+                            >GitHub repo</a
+                        >
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="d-inline-flex gap-1">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#credit"
+                    aria-expanded="false"
+                    aria-controls="credit"
+                >
+                    Credit
+                </button>
+            </p>
+            <div class="collapse" id="credit">
+                <div class="card card-body">
+                    Developed by Carson Jan in 2025.
+                    <span>
+                        This project is open-sourced on
+                        <a href="https://github.com/carsonjan/ubc-printer-map/i"
+                            >GitHub</a
+                        >
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="d-inline-flex gap-1">
+                <button
+                    class="btn btn-secondary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#legal"
+                    aria-expanded="false"
+                    aria-controls="legal"
+                >
+                    Legal
+                </button>
+            </p>
+            <div class="collapse" id="legal">
+                <div class="card card-body">
+                    UBC printer map (this project) is a personal project
+                    developed with the sole purpose of helping students to
+                    locate printers in within The University of British Columbia
+                    (UBC) campus. This project is not-for-profit. UBC is in no
+                    way affiliated or connected to this project and in no way
+                    endorses this project.
+                </div>
+            </div>
+        </div>
+        <br>
+        <div><a href="#title" id="returnToTop">&#8593; Return to top</a></div>
+    </body>
+</html>
