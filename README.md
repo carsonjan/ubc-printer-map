@@ -1,2 +1,5 @@
 # ubc-printer-map
-Interative map showing printer locations in UBC
+
+Interactive map showing printer locations in UBC
+
+[https://carsonjan.github.io/ubc-printer-map](https://carsonjan.github.io/ubc-printer-map)
