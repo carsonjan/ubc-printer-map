@@ -5,7 +5,7 @@ body {
 }
 
 #map {
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
 }
 
@@ -22,7 +22,7 @@ ul.printers-list {
     --height: 4rem;
     position: fixed;
     z-index: 500;
-    top: calc(100vh - var(--height));
+    top: calc(100dvh - var(--height));
     left: 0px;
     width: 50vw;
     height: var(--height);
