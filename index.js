@@ -95,7 +95,9 @@ function addLocationMarkers(locations, icons) {
 // geolocation
 function getLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(success, error);
+        navigator.geolocation.getCurrentPosition(success, error, {
+            maximumAge: 6000,
+        });
     } else {
         alert("Location is not supported by this browser.");
     }
