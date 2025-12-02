@@ -53,9 +53,12 @@ h1 {
 }
 
 button {
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
-main {
-    padding: 1rem 3rem
+.main {
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
