@@ -55,3 +55,7 @@ h1 {
 button {
     font-weight: 500 !important;
 }
+
+main {
+    padding: 1rem 3rem
+}
