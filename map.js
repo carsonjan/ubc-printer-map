@@ -8,6 +8,7 @@ const map = L.map("map", {
     zoomSnap: 0,
     wheelPxPerZoomLevel: 150,
     zoomControl: false,
+    tapHold: false,
 });
 map.setView(HOME_COORD, DEFAULT_ZOOM);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -58,7 +59,10 @@ async function renderLocations() {
     const data = await promise.json();
     const locations = data.locations;
 
-    const printerIcon = L.icon({ iconUrl: "./assets/printer-fill.svg" , iconSize:[25]});
+    const printerIcon = L.icon({
+        iconUrl: "./assets/printer-fill.svg",
+        iconSize: [25],
+    });
     addLocationMarkers(locations, printerIcon);
 }
 
@@ -75,17 +79,17 @@ async function renderExtraLocations() {
 }
 
 function addLocationMarkers(locations, icons) {
-  locations.forEach((location) => {
-      // Skip locations without coordinates
-      if (location.lat === null || location.long === null) return;
+    locations.forEach((location) => {
+        // Skip locations without coordinates
+        if (location.lat === null || location.long === null) return;
 
-      const marker = L.marker([location.lat, location.long], {
-          icon: icons,
-      });
-      const popupContent = createPopupContent(location);
-      marker.bindPopup(popupContent);
-      marker.addTo(map);
-  });
+        const marker = L.marker([location.lat, location.long], {
+            icon: icons,
+        });
+        const popupContent = createPopupContent(location);
+        marker.bindPopup(popupContent);
+        marker.addTo(map);
+    });
 }
 
 // geolocation
@@ -98,7 +102,10 @@ function getLocation() {
 }
 
 function success(position) {
-  const locationIcon = L.icon({iconUrl: "./assets/location.svg", iconSize:[20]})
+    const locationIcon = L.icon({
+        iconUrl: "./assets/location.svg",
+        iconSize: [20],
+    });
     const newLocation = [position.coords.latitude, position.coords.longitude];
     if (locationMarker) {
         map.removeLayer(locationMarker);
@@ -109,7 +116,7 @@ function success(position) {
     //     "located" + [position.coords.latitude, position.coords.longitude]
     // );
     locationMarker.addTo(map);
-    map.setView(newLocation, DEFAULT_ZOOM+1);
+    map.setView(newLocation, DEFAULT_ZOOM + 1);
 }
 
 function error() {
