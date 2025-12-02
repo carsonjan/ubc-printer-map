@@ -100,9 +100,11 @@ function getLocation() {
 function success(position) {
   const locationIcon = L.icon({iconUrl: "./assets/location.svg", iconSize:[20]})
     const newLocation = [position.coords.latitude, position.coords.longitude];
-    if (!locationMarker) {
-        locationMarker = L.marker(newLocation, {icon:locationIcon});
-    } else locationMarker.setLatLng(newLocation);
+    if (locationMarker) {
+        map.removeLayer(locationMarker);
+    }
+    locationMarker = L.marker(newLocation, { icon: locationIcon });
+    locationMarker.setLatLng(newLocation);
     // console.log(
     //     "located" + [position.coords.latitude, position.coords.longitude]
     // );
