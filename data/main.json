@@ -30,8 +30,8 @@
         },
         {
             "code": "PHAR",
-            "lat": null,
-            "long": null,
+            "lat": 49.262287617966706,
+            "long": -123.24359931853661,
             "printers": [
                 {
                     "room": "3300",
