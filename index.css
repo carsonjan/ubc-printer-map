@@ -65,6 +65,7 @@ ul.printers-list {
     font-size: smaller;
     padding: 0.5rem;
     max-width: 60ch;
+    pointer-events: none;
 }
 
 #header h1 {
