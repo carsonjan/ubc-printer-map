@@ -57,3 +57,17 @@ ul.printers-list {
         transform: none;
     }
 }
+
+#header {
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(240, 248, 255, 0.7);
+    font-size: smaller;
+    padding: 0.5rem;
+    max-width: 60ch;
+}
+
+#header h1 {
+    font-size: large;
+    display: inline;
+}
